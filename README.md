@@ -4,6 +4,29 @@ Zidio is an AI-powered emotion analysis system designed for **real-time monitori
 
 ## 📸 Demo (Add your screenshots or gif demos here)
 
+1. 🎥 Live Emotion Detection via Webcam
+
+Zidio captures real-time facial expressions using your webcam and detects the corresponding emotion using DeepFace.
+
+2. 🧠 Emotion Analysis Dashboard
+
+The Streamlit dashboard updates every few seconds to show:
+
+Facial Emotion 🧍
+
+Speech Emotion 🎙️
+
+Final Mapped Mood
+
+Alerts if stress is frequent
+
+3. 📊 Mood Distribution & Logs
+
+A running bar chart displays mood trends. Logs are stored in a backend SQLite DB and shown with timestamps.
+
+4. 🚨 Email Alert
+
+Zidio sends an automated alert email to HR if continuous stress/burnout is detected in a session.
 ---
 
 ## 🔥 Features
