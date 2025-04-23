@@ -2,31 +2,42 @@
 
 Zidio is an AI-powered emotion analysis system designed for **real-time monitoring** of employee well-being in workplace environments. It leverages **facial expression** and **voice tone** detection to infer **emotional states**, map them to **workplace moods**, and trigger alerts when stress is detected.
 
-## 📸 Demo (Add your screenshots or gif demos here)
+## 📸 Demo 
 
-1. 🎥 Live Emotion Detection via Webcam
+### 1. 🎥 **Live Emotion Detection via Webcam**
 
-Zidio captures real-time facial expressions using your webcam and detects the corresponding emotion using DeepFace.
+Zidio captures **real-time facial expressions** using your webcam and detects the corresponding emotion using **DeepFace**.
 
-2. 🧠 Emotion Analysis Dashboard
+---
 
-The Streamlit dashboard updates every few seconds to show:
+### 2. 🧠 **Emotion Analysis Dashboard**
 
-Facial Emotion 🧍
+The **Streamlit dashboard** updates every few seconds to show:
 
-Speech Emotion 🎙️
+- 🧍 **Facial Emotion**
+- 🎙️ **Speech Emotion**
+- 🧠 **Final Mapped Mood**
+- 🚨 **Alerts if stress is detected multiple times**
 
-Final Mapped Mood
+---
 
-Alerts if stress is frequent
+### 3. 📊 **Mood Distribution & Logs**
 
-3. 📊 Mood Distribution & Logs
+A **bar chart** displays mood trends dynamically.
 
-A running bar chart displays mood trends. Logs are stored in a backend SQLite DB and shown with timestamps.
+All detections are **logged in real time** with timestamps using a **SQLite backend**.
 
-4. 🚨 Email Alert
+---
 
-Zidio sends an automated alert email to HR if continuous stress/burnout is detected in a session.
+### 4. 🚨 **Email Alert System**
+
+Zidio sends **automated email alerts** to HR when **stress or burnout** is detected repeatedly within a session.
+
+Example:
+> _"Zidio detected repeated stress indicators.  
+> Final Mood: BURNED OUT  
+> Please take appropriate HR action."_  
+
 ---
 
 ## 🔥 Features
