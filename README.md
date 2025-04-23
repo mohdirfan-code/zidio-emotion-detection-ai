@@ -4,6 +4,18 @@ Zidio is an AI-powered emotion analysis system designed for **real-time monitori
 
 ## 📸 Demo 
 
+![Image](https://github.com/user-attachments/assets/a7e38a63-bb71-47a7-b786-5406d28c9ae5)
+
+![Image](https://github.com/user-attachments/assets/e97ca3a1-f8b2-4ad7-8d84-0f420ad06a08)
+
+![Image](https://github.com/user-attachments/assets/b90dd127-8a77-4016-9e61-6d3c67ae23e8)
+
+![Image](https://github.com/user-attachments/assets/40c96db5-2403-467e-8098-229feb3bed41)
+
+![Image](https://github.com/user-attachments/assets/987fc339-5664-459b-bbc3-992e463d90c2)
+
+![Image](https://github.com/user-attachments/assets/04696fb9-9084-4c85-bea7-6aee835c85bb)
+
 ### 1. 🎥 **Live Emotion Detection via Webcam**
 
 Zidio captures **real-time facial expressions** using your webcam and detects the corresponding emotion using **DeepFace**.
@@ -76,22 +88,4 @@ FastAPI logs all emotion events to a local SQLite database.
 
 ## 🏗️ System Architecture
 
-```text
-              +-------------------+
-              |    Webcam + Mic   |
-              +--------+----------+
-                       |
-              +--------v----------+
-              |   Fusion Thread   |
-              | (Face + Speech AI)|
-              +--------+----------+
-                       |
-        +--------------v--------------+
-        |     FastAPI (Backend)       |
-        | - POST /log_emotion         |
-        | - SQLite DB                 |
-        +--------------+--------------+
-                       |
-              +--------v--------+
-              |   Streamlit UI  |
-              +----------------+
+![Image](https://github.com/user-attachments/assets/c9d5a21a-bd37-4ba5-8baf-df0974478b56)
