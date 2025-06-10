@@ -1,6 +1,4 @@
-# start.sh (for FastAPI only)
+# start.sh (for Streamlit only)
 #!/bin/bash
-echo "🚀 Starting FastAPI (Zidio API)..."
-uvicorn api.main:app --host 0.0.0.0 --port $PORT
-
-
+echo "📊 Launching Streamlit Dashboard..."
+streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=$PORT
